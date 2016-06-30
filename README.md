@@ -8,7 +8,7 @@ Using npm:
 
 ### Use
 ```
-  var strophe = require('./strophe/index');
+  var strophe = require('./index');
 ```
 
 [About strophe.js](http://strophe.im/strophejs/)
