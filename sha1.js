@@ -155,7 +155,7 @@ function binb2b64(binarray)
   return str;
 }
 
-moudle.exports = {
+module.exports = {
     b64_hmac_sha1:  function (key, data){ return binb2b64(core_hmac_sha1(key, data)); },
     b64_sha1:       function (s) { return binb2b64(core_sha1(str2binb(s),s.length * 8)); },
     binb2str:       binb2str,
